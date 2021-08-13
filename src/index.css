@@ -26,3 +26,7 @@ hr {
     margin: auto;
     text-align: left;
 }
+
+.border {
+    border: 2px solid slategrey;
+}

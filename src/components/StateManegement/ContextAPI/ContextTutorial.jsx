@@ -4,11 +4,16 @@ import ContextInput from "./ContextInput";
 
 export default function ContextTutorial() {
   return (
-    <div>
+    <div className="border">
       <h1>Context Tutorial</h1>
       <InputValueProvider>
+        <small>Context input component</small>
         <ContextInput />
-        <CalculationOverview/>
+        <br />
+        <br />
+        <br />
+        <small>Calculation overview component</small>
+        <CalculationOverview />
       </InputValueProvider>
     </div>
   );

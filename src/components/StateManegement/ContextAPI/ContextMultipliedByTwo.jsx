@@ -3,7 +3,7 @@ import { InputValueContext } from "./context/InputValueContext";
 export default function ContextMultipliedByTwo() {
   const {state} = useContext(InputValueContext)
   return (
-    <div>
+    <div className="border">
       <p>Multiplied number: {state.inputValue * 2}</p>
     </div>
   );

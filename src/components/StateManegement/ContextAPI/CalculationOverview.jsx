@@ -3,7 +3,7 @@ import whenUseContext from "../../../images/whenusecontext.png";
 export default function CalculationOverview() {
   console.log(whenUseContext);
   return (
-    <div>
+    <div className="border">
       <MultipliedCalculations />
       <div className="container">
         <p>Context use cases</p>
