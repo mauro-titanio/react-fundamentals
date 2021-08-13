@@ -7,6 +7,7 @@ export default function StMaNavigation() {
         <ul>
           <Link to="/statemanagement/props">Props</Link>
           <Link to="/statemanagement/context">Context API</Link>
+          <Link to="/statemanagement/reactquery">React Query</Link>
         </ul>
       </div>
     </div>
