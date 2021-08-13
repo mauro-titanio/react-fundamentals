@@ -1,0 +1,16 @@
+.navbar {
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-bottom: 4px solid greenyellow !important;
+    z-index: 100;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul a {
+    color: honeydew;
+}
