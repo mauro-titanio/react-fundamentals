@@ -20,3 +20,9 @@ hr {
 .container {
     padding: 3rem;
 }
+
+.centered-list {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
