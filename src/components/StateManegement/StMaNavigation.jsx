@@ -6,6 +6,7 @@ export default function StMaNavigation() {
       <div className="navbar">
         <ul>
           <Link to="/statemanagement/props">Props</Link>
+          <Link to="/statemanagement/context">Context API</Link>
         </ul>
       </div>
     </div>

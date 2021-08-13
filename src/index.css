@@ -16,3 +16,7 @@ hr {
 .text-start {
     text-align: left !important;
 }
+
+.container {
+    padding: 3rem;
+}
