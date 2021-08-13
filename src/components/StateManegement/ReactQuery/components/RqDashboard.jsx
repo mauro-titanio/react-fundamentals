@@ -2,6 +2,7 @@ import RqUsers from "./RqUsers";
 import RqUser from "./RqUser";
 import { useState } from "react";
 import { useIsFetching } from "react-query";
+import RqCreateUser from "./RqCreateUser";
 export default function RqDashboard() {
   const [selectedUser, setSelectedUser] = useState(null);
   const isFetching = useIsFetching()
@@ -18,6 +19,9 @@ export default function RqDashboard() {
       <br />
       <br />
       <br />
+      <p>Post</p>
+      <small>See the console and network</small>
+      <RqCreateUser/>
       <br />
       <br />
       <br />

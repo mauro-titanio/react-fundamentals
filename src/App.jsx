@@ -5,7 +5,7 @@ import Forms from "./components/Forms";
 import DataFetchingGetData from "./components/DataFetchingGetData";
 import DataFetchingSetData from "./components/DataFetchingSetData";
 import CustomHooks from "./components/CustomHooks/CustomHooks";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import RouterHooks from "./components/RouterHooks";
 import RouterHooksPart2 from "./components/RouterHooksPart2";

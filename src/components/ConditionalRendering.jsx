@@ -1,4 +1,4 @@
-import "./ConditionalRendering.css";
+import styles from "./ConditionalRendering.module.css";
 
 export default function ConditionalRendering() {
   const welcomeText = {
@@ -17,16 +17,21 @@ export default function ConditionalRendering() {
 
   return (
     <div>
+      <small>En este bloque hay también un ejemplo de como usar CSS Module</small>
       <h1>Conditional Rendering</h1>
       <small>Ejemplo nombre</small>
-      <p className={isAuthenticated ? "welcomeTextAuthed" : "welcomeText"}>
+      <p className={isAuthenticated ? styles.welcomeTextAuthed : styles.welcomeText}>
         Welcome, {isAuthenticated ? name : "please log in"}
       </p>
       <small>Ejemplo Role</small>
-      <p className={isAuthenticated ? "welcomeTextAuthed" : "welcomeText"}>
+      <p className={isAuthenticated ? styles.welcomeTextAuthed : styles.welcomeText}>
         {isAuthenticated ? welcomeText[role] : "please log in"}
       </p>
       {!isAuthenticated && <button>Login</button>}
+      <br />
+      
+      <br />
+      
     </div>
   );
 }
